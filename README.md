@@ -2,7 +2,7 @@
 
 ### [MyBlog here &rarr;](http://www.floatingraft.com)
 
-## 关于
+## About
 
 This theme is forked from [Hux blog &rarr;] (http://huxpro.github.io). You can direct the fork template - ` huxblog - boilerplate `, instructions are described very clear. Or you can download the zip directly to local to modify (personal advice).
 
