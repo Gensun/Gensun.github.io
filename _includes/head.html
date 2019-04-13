@@ -8,7 +8,7 @@
     <meta name="theme-color" content="{{ site.chrome-tab-theme-color }}">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}">
+    <meta property="og:title" content="{% if page.SEOTitle %}{{ page.SEOTitle }} - {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}">
     {% case page.layout %}
     {% when 'post' %}
     <meta property="og:type" content="article">
