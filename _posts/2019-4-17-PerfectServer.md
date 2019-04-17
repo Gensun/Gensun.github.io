@@ -94,7 +94,7 @@ swift package generate-xcodeproj
 
 #	MySQL
 
-![MySQL](img/swiftServer/MySql.png)
+![MySQL](/img/swiftServer/MySql.png)
 
 #### 安装数据库工具 
 
@@ -116,16 +116,16 @@ mysql_secure_installation
 
 ```
 ## 建表
-建立连接 ![建立连接](img/swiftServer/WX20190417-193754@2x.png)
+建立连接 ![建立连接](/img/swiftServer/WX20190417-193754@2x.png)
 
-建DB建表 ![建表](img/swiftServer/WX20190417-193555@2x.png)
+建DB建表 ![建表](/img/swiftServer/WX20190417-193555@2x.png)
 
 # 搭建HTTP服务器
 
 
 # demo
-### 无MySQl数据库版
-#### [client](https://github.com/Gensun/PerfectHttp_NODB_Client)
-#### [server](https://github.com/Gensun/PerfectHttp_NODB_Server)
+### 无MySQl数据库版 实现login / profile / photo传输
+#### [client demo](https://github.com/Gensun/PerfectHttp_NODB_Client)
+#### [server demo](https://github.com/Gensun/PerfectHttp_NODB_Server)
 
 有问题可以联系[Email](mailto:ep_chengsun@aliyum.com)
