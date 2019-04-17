@@ -4,7 +4,7 @@ title: "Perfect-HTTPServer"
 subtitle: "如何用swift5开发server服务器"
 author: "Genie"
 header-img: "img/swiftServer/prefect.jpeg"
-header-mask: 0.3
+header-mask: 0.7
 tags:
   - PrefectServer
   - swift5
