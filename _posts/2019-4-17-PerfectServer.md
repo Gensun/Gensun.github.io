@@ -126,5 +126,9 @@ mysql_secure_installation
 # demo
 ### 无MySQl数据库版 实现login / profile / photo传输
 #### [demo](https://github.com/Gensun/PerfectHttp_NODB.git)
-
+### 建立MySql
+![DB data](/img/swiftServer/WX20190422-190741@2x.png)
+![begin UI](/img/swiftServer/ScreenShot1.png)
+![end UI](/img/swiftServer/ScreenShot2.png)
+#### [demo](https://github.com/Gensun/PerfectHttp_DB.git)
 有问题可以联系[Email](mailto:ep_chengsun@aliyum.com)
