@@ -131,4 +131,4 @@ mysql_secure_installation
 ![begin UI](/img/swiftServer/ScreenShot1.png)
 ![end UI](/img/swiftServer/ScreenShot2.png)
 #### [demo](https://github.com/Gensun/PerfectHttp_DB.git)
-有问题可以联系[Email](mailto:ep_chengsun@aliyum.com)
+有问题可以联系[Email](mailto:ep_chengsun@aliyun.com)
