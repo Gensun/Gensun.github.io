@@ -19,7 +19,7 @@ tags:
 3. soft rebase 你的commit
 ![3](/img/git/4@2x.png)
 4. 勾选 强制 push，push
-![4](/img/git/1@2x.png)
+![4](/img/git/2@2x.png)
 
 `如果多条commit 还没有push origin的话，您不需要开启强制push，only本地rebase之后push origin
 `
