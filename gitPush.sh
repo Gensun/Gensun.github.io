@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo "starting commit $* to github"
 if [[ "$*" ]]; then
 	#statements
+	echo "starting commit $* to github"
 	git add .
 	git commit -m "$*"
 	git push
