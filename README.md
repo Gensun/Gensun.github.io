@@ -1,6 +1,3 @@
-# Genie's Blog 
-
-### [MyBlog here &rarr;](http://www.floatingraft.com)
 
 ## About
 
