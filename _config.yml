@@ -60,8 +60,8 @@ kramdown:
 
 
 # Disqus settings
-# disqus_username: geniesun
-disqusShortname = 'geniesun'
+disqus_username: geniesun
+
 # Netease settings
 netease_comment: false
 
