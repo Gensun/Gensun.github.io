@@ -65,6 +65,8 @@ disqus_username: https-www-floatingraft-com-2
 # Netease settings
 netease_comment: false
 
+# share settings
+share: true
 
 
 # Analytics settings

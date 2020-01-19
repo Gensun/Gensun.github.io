@@ -60,11 +60,16 @@ layout: default
                 <!-- disqus 评论框 end -->
                 {% endif %}
 
-                {% if site.netease_comment %}
+                {% if site.netease_<!-- comment %}
                 <!-- 网易云跟帖 评论框 start -->
                 <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
                 <!-- 网易云跟帖 评论框 end -->
+                {% endif %} -->
+
+                {% if site.share %}
+                <div id="" class="social-share" data-sites="wechat,weibo,twitter,facebook,douban" data-mobile-sites="wechat,weibo"></div>
                 {% endif %}
+
             </div>  
 
     <!-- Side Catalog Container -->
@@ -138,9 +143,6 @@ layout: default
 </script>
 <!-- disqus 公共JS代码 end -->
 {% endif %}
-
-<div class="social-share" data-sites="wechat,weibo,twitter,facebook,douban" data-mobile-sites="wechat,weibo"></div>
-
 
 {% if site.anchorjs %}
 <!-- async load function -->
