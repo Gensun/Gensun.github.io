@@ -7,13 +7,13 @@ description: "个人博客 LIFE YOU LIFE"
 keyword: "孙程, 孙程同学, Genie, Genie blog, 孙程 Blog, 博客, 个人网站, 互联网, iOS, swift"
 # url: "https://github.com/Gensun/Gensun.github.io.git"              # your host, for absolute URL
 url: "https://floatingraft.com"
-baseurl: "/index"                             # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
 
 # SNS settings
-RSS: false
+RSS: true
 weibo_username: _孙程同学
 # zhihu_username:     huxpro
 github_username: Gensun
