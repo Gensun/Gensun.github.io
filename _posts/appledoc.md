@@ -1,0 +1,25 @@
+---
+layout: post
+title: "appledoc"
+subtitle: ""
+author: "Genie"
+header-img: "img/home-bg-geek.jpg"
+header-mask: 0.4
+tags:
+  - appledoc
+---
+
+# appledoc
+AppleDoc自动生成项目文档
+
+Github链接：[https://github.com/tomaz/appledoc](https://github.com/tomaz/appledoc)
+
+``` 
+brew install appledoc
+```
+完成后可以用```appledoc --version```验证下。
+
+> 首先cd到你的项目文件夹下。
+跑一下下面的命令，默认会编译出docset并安装进Xcode。
+
+```appledoc --project-name 你的项目名称 --project-company 你的公司名称 ./```
