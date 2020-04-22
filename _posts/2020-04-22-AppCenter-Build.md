@@ -67,4 +67,4 @@ tags:
 
 > 这时候测试可以通过testflight测试
 
-![11](/img/AppCenter/Build/5933813851902421983.png)
+![11](/img/AppCenter/Builds/593381.png)
