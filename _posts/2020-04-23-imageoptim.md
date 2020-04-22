@@ -3,7 +3,7 @@ layout: post
 title: "imageoptim"
 subtitle: ""
 author: "Genie"
-header-img: "img/ef.jpg"
+header-img: "img/BookCover.jpg"
 header-mask: 0.5
 tags:
   - 图片压缩
