@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "AppCenter Build"
+title: "AppCenter MSCrashes"
 subtitle: ""
 author: "Genie"
 header-img: "img/ef.jpg"
 header-mask: 0.5
 tags:
   - AppCenter
-  - Auto Build for iOS
+  - MSCrashes for iOS
 ---
 
 [appcenter.ms](https://appcenter.ms/)
