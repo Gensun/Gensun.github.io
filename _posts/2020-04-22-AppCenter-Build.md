@@ -25,6 +25,7 @@ tags:
 
 选择OAuth, 按照提示步骤操作完成即可，然后你就可以对仓库做操作了
 
+
 ![2](/img/AppCenter/Build/121883.png)
 
 ## 创建Branch
