@@ -10,7 +10,6 @@ tags:
   - Auto Build for iOS
 ---
 
-# AppCenter
 # Build for iOS
 ### First Lab
 > BitBucket 和GitHub，gitlab 一样的代码仓库
@@ -18,7 +17,7 @@ tags:
 ### clone
 > 我们选择在Sourcetree 里link，在SourceTree图形界面工具里对代码管理是优质的选择
 
-![1](/img/AppCenter/Build/202194.png)
+![2020-01-16](/img/AppCenter/Build/202194.png)
 
 ## Accounts
 > 在sourcetree 里面添加bitbucket帐号
