@@ -4,7 +4,7 @@ title: "iOS Safair 调试web"
 subtitle: ""
 author: "Genie"
 header-img: "img/ef.jpg"
-header-mask: 0.5
+header-mask: 0.3
 tags:
   - Safair
   - 调试web
