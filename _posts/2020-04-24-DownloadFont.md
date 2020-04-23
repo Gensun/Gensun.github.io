@@ -19,6 +19,11 @@ tags:
 
 动态下载中文字体的API可以动态的向iOS系统中添加字体文件，这些字体文件都是下载到系统的目录中，所以不会造成应用体积增加，字体文件下载后还可以在所有应用间共享。并且字体文件是iOS系统提供的，也免去了字体使用版权的问题
 
+**对于.ttc 一般都很大，对于.otf 一般也很小多是kb为单位, 但是有些也很大，小的可以没必要考虑动态下载，一般公司都是使用小的.otf**
+
+![](/img/DownloadFont/WX20200423-102100.png)
+![](/img/DownloadFont/WX20200423-102153@2x.png)
+![](/img/DownloadFont/WX20200423-103145@2x.png)
 
 ##### 下载的时候需要使用的名字是 PostScript 名称，所以你要动态下载相应的字体的话，还需要使用 Mac 内自带的应用 “字体册 “来获得相应字体的 PostScript 名称。如下显示了从” 字体册 “中获取字体的 PostScript 名称的截图
 ![](/img/DownloadFont/2019.07.24.01.png)
@@ -90,6 +95,8 @@ CTFontDescriptorMatchFontDescriptorsWithProgressHandler((CFArrayRef)descs, NULL,
 下载字体导入工程   ***（注意上文说的字体版权问题)***，
 在 info.plist文件中告诉系统你想导入的字体文件
 设置字体到相应控件上（使用的字体名字是 PostScript 名称，上文已说过怎样获取 PostScript 名称）
+
+![](/img/DownloadFont/2019.07.24.02.png)
 
 ``` 
 UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 100, 300, 400)];
