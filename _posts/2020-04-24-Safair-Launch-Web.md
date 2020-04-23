@@ -12,7 +12,7 @@ tags:
 
 * "Safair" -> "Preferences" -> "Advanced" selected "Show develop Menu in Menu bar"
 
-![a](img/WebForTest/1.png)
+![a](img/team/sprint.jpg)
 
 * 在真机或模拟器 "Safair" -> "高级" -> "Web检查器"
 
