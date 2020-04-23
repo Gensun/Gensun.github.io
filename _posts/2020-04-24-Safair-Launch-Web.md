@@ -12,7 +12,9 @@ tags:
 
 * "Safair" -> "Preferences" -> "Advanced" selected "Show develop Menu in Menu bar"
 
+
 ![11](img/safaiForweb/1.png)
+
 
 * 在真机或模拟器 "Safair" -> "高级" -> "Web检查器"
 
