@@ -10,17 +10,17 @@ tags:
   - 调试web
 ---
 
-* "Safair" -> "Preferences" -> "Advanced" selected "Show develop Menu in Menu bar"
+1. "Safair" -> "Preferences" -> "Advanced" selected "Show develop Menu in Menu bar"
 
 ![a](img/team/sprint.jpg)
 
-* 在真机或模拟器 "Safair" -> "高级" -> "Web检查器"
+2.  在真机或模拟器 "Safair" -> "高级" -> "Web检查器"
 
 ![2](img/WebForTest/2.jpeg)
 
 ![3](img/WebForTest/3.jpeg)
 
-* 通过USB 连接真机或模拟器 在Safair "develop" 中选择设备，点击相关网络地址
+3. 通过USB 连接真机或模拟器 在Safair "develop" 中选择设备，点击相关网络地址
 
 ![4](img/WebForTest/2.png)
 
