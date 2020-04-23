@@ -4,7 +4,7 @@ title: "iOS Safair 调试web"
 subtitle: "tools"
 author: "Genie"
 header-img: "img/ef.jpg"
-header-mask: 0.3
+header-mask: 0.7
 tags:
   - Safair
   - 调试web
@@ -14,11 +14,12 @@ tags:
 
 ### "Safair" -> "Preferences" -> "Advanced" selected "Show develop Menu in Menu bar"
 
-![1](img/team/sprint.jpg)
+![1](img/WebForTest/1.png)
 
 ### 在真机或模拟器 "Safair" -> "高级" -> "Web检查器"
 
 ![2](img/WebForTest/2.jpeg)
+
 
 ![3](img/WebForTest/3.jpeg)
 
