@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "iOS Safair 调试web"
-subtitle: ""
+subtitle: "tools"
 author: "Genie"
 header-img: "img/ef.jpg"
 header-mask: 0.3
@@ -10,19 +10,19 @@ tags:
   - 调试web
 ---
 
-# config
+# Config
 
-1. "Safair" -> "Preferences" -> "Advanced" selected "Show develop Menu in Menu bar"
+### "Safair" -> "Preferences" -> "Advanced" selected "Show develop Menu in Menu bar"
 
 ![1](img/team/sprint.jpg)
 
-2.  在真机或模拟器 "Safair" -> "高级" -> "Web检查器"
+### 在真机或模拟器 "Safair" -> "高级" -> "Web检查器"
 
 ![2](img/WebForTest/2.jpeg)
 
 ![3](img/WebForTest/3.jpeg)
 
-3. 通过USB 连接真机或模拟器 在Safair "develop" 中选择设备，点击相关网络地址
+### 通过USB 连接真机或模拟器 在Safair "develop" 中选择设备，点击相关网络地址
 
 ![4](img/WebForTest/2.png)
 
