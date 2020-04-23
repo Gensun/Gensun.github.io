@@ -10,9 +10,11 @@ tags:
   - 调试web
 ---
 
+# config
+
 1. "Safair" -> "Preferences" -> "Advanced" selected "Show develop Menu in Menu bar"
 
-![a](img/team/sprint.jpg)
+![1](img/team/sprint.jpg)
 
 2.  在真机或模拟器 "Safair" -> "高级" -> "Web检查器"
 
