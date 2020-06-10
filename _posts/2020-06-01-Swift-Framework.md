@@ -16,7 +16,9 @@ tags:
 3. Apple 自己的框架都是 .framework 为后缀的动态框架，我们使用这些框架的时候只需要在 target 配置时进行指明就可以，非常方便。
  
 # 选择
-  ![1](/img/Framework/WX20200610-112706.png)
+
+![1](/img/Framework/WX20200610-112706.png)
+  
 首先通过新建菜单的 Framework & Library 创建一个 Cocoa Touch Framework 项目，命名为 HelloKit，然后添加一个 Swift 文件以及随便一些什么内容，比如：
 
 ```
