@@ -1,14 +1,13 @@
 ---
 layout: post
-title: "Swift制作framework"
+title: "动态库制作"
 subtitle: ""
 author: "Genie"
 header-img: "img/ef.jpg"
 header-mask: 0.7
 tags:
-	-  swift
+  -  swift
 ---
-
 # 当下
 
 1. Apple 为了 iOS 平台的安全性考虑，是 _不允许动态链接_  非系统的框架的。
