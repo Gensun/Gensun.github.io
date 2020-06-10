@@ -108,37 +108,38 @@ friends: [
     {
         title: "OLIVER HU",
         href: "https://ollywho.github.io"
-    },
-    {
+    },{
         title: "CMD",
         href: "http://billchan.me/"
+    },{
+        title: "Matthew Cheok",
+        href: "http://blog.matthewcheok.com/"
+    },{
+        title: "OneSwift",
+        href: "https://bjdehang.github.io/OneSwift/"
+    },{
+        title: "EF Tours Blog",
+        href: "https://blog.eftours.com/"
+    },{
+        title: "Swift org",
+        href: "https://swift.org/"
+    },{
+        title: "Swift Doc",
+        href: "https://swiftdoc.org/"
+    },{
+        title: "Swifter",
+        href: "https://swifter.tips/"
+    },{
+        title: "Gsl's Library",
+        href: "https://gsl201600.github.io/#blog"
+    },{
+        title: "Chuck Lab",
+        href: "http://blog.chucklab.com/"
+    },{
+        title: "Hangge",
+        href: "https://www.hangge.com/"
+    },{
+        title: "Thoughtbot",
+        href: "https://thoughtbot.com/blog"
     }
-    # ,{
-    #     title: "前端外刊评论",
-    #     href: "http://qianduan.guru/"
-    # },{
-    #     title: "天镶的博客",
-    #     href: "http://lingyu.wang/"
-    # },{
-    #     title: "Luke 的自留地",
-    #     href: "http://hmqk1995.github.io"
-    # },{
-    #     title: "Ebn's Blog",
-    #     href: "http://ebnbin.com/"
-    # },{
-    #     title: "SmdCn's Blog",
-    #     href: "http://blog.smdcn.net"
-    # },{
-    #     title: "David's Game",
-    #     href: "https://www.ruoyaowu.com/"
-    # },{
-    #     title: "DHong Say",
-    #     href: "http://dhong.co"
-    # },{
-    #     title: "尹峰以为",
-    #     href: "http://ingf.github.io/"
-    # },{
-    #     title: "解旻的博客",
-    #     href: "http://xieminis.me/"
-    # }
 ]
