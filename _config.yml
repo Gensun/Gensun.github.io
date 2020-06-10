@@ -105,10 +105,10 @@ page-mathjax: false
 
 # Friends
 friends: [
-    # {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },
+    {
+        title: "OLIVER HU",
+        href: "https://ollywho.github.io"
+    },
     {
         title: "CMD",
         href: "http://billchan.me/"
