@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Framework"
+title: "swift制作framework"
 subtitle: "swift制作framework"
 author: "Genie"
 header-img: "img/ef.jpg"
