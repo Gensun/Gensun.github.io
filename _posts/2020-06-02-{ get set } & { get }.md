@@ -108,3 +108,36 @@ class Bird: Flyable {
 bbb.changeSpeed()
 bbb.speedLimit //30
 ```
+
+`get willset set didset` 调用顺序
+
+```
+class A {
+    var number :Int {
+        get {
+            print("get")
+            return 1
+        }
+
+        set {print("set")}
+    }
+}
+
+class B: A {
+    override var number: Int {
+        willSet {print("willSet")}
+        didSet {print("didSet")}
+    }
+}
+```
+
+```
+let b = B()
+b.number = 0
+
+// 输出
+// get
+// willSet
+// set
+// didSet
+```
