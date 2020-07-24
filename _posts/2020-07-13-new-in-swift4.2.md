@@ -97,6 +97,34 @@ Terrain.allCases.count //4
 
 ```
 
+**如果有枚举项标记为unavailable，则默认无法合成allCases，只能依靠自己来手动合成**
+
+```
+enum CarKind: CaseIterable {
+    //当有unavailable修饰的case值, 也必须重写allCase属性
+    static var allCases: [CarKind] {
+        return [.bwm, .ford]
+    }
+    
+    case bwm
+    case ford
+    
+    @available(*, unavailable)
+    case toyota
+}
+
+for item in CarKind.allCases {
+    print(item)
+}
+
+/*
+ 输出结果:
+ bwm
+ ford
+ */
+
+```
+
 # Random numbers
 	
 ## `random(in:)` 该方法返回给定范围内的随机数
@@ -253,6 +281,16 @@ print(p.name)
  [参考](https://www.floatingraft.com/2020/06/17/%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E4%BD%BF%E7%94%A8-unowned-weak/)
 
 # #error and #warning
+
+>  #warning("msg") 主要用于提醒你或者别人一些工作还没有完成
+
+> 主要用于如果你发送一个库，需要其他开发者提供一些数据。比如，一个网络 API的认证密码，你需要用户输入它们自己的密码，就使用#error在继续之前强制他们更改这行代码
+
+```
+#if os(macOS)
+#error("MyLibrary is not supported on macOS.")
+#endif
+```
 
 # #if compiler version directive
 
