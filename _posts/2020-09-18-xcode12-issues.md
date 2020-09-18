@@ -14,6 +14,6 @@ tags:
 
 resolve：
 
-![1](/img/WechatIMG307.png)
+![1](/img/xcode12/WechatIMG307.png)
 
-![2](/img/WechatIMG308.png)
+![2](/img/xcode12/WechatIMG308.png)
