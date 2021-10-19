@@ -36,9 +36,10 @@ tags:
 	*  	执行 `which clang-format` copy下路径，后续使用
 3. 创建format规则
 
-	下载 [.clang-format](/img/code-format/clang-format)，放到用户路径下,重命名
+	下载 [.clang-format](https://raw.githubusercontent.com/Gensun/Gensun.github.io/master/img/code-format/clang-format)，放到用户路径下,重命名
 	`. clang-format `
-	
+ 
+ 	
 4. 创建机器人
 	 打开**Automator**，创建`Quick Action`， 在 `library` 下选择 `Run shell Script`
 	 
