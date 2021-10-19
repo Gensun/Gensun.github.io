@@ -1,0 +1,165 @@
+# 工具 https://github.com/mapbox/XcodeClangFormat
+# 函数名详细地址 英文 http://clang.llvm.org/docs/ClangFormatStyleOptions.html
+# 函数名详细地址 中文 https://www.cnblogs.com/PaulpauL/p/5929753.html
+# 语言: None, Cpp, Java, JavaScript, ObjC, Proto, TableGen, TextProto
+# Language: ObjC
+
+# 基于样式
+BasedOnStyle: LLVM
+
+# 标准: Cpp11, Cpp03, Cpp11, Auto
+Standard: Auto
+
+# 对齐注释
+# AlignTrailingComments: true
+
+# 指针和引用的对齐方式
+PointerAlignment: Right
+
+# 缩进宽度
+# 使用tab字符: Never, ForIndentation, ForContinuationAndIndentation, Alway
+UseTab: ForIndentation
+IndentWidth: 4
+TabWidth: 4
+
+# switch的case缩进
+IndentCaseLabels: true
+
+# OC里面，在@property后加空格
+ObjCSpaceAfterProperty: true
+
+# OC里面，在Protocol前后加空格
+ObjCSpaceBeforeProtocolList: true
+
+# 针对 OC 的 block 的缩进宽度
+ObjCBlockIndentWidth: 4
+
+# OC 协议根据 ColumnLimit 长度 换行
+ObjCBinPackProtocolList: Auto
+
+# 单行注释前的空格数
+SpacesBeforeTrailingComments: 1
+
+# 连续的空行保留几行
+MaxEmptyLinesToKeep: 2
+
+# 保留block里面的空行
+KeepEmptyLinesAtTheStartOfBlocks: false
+
+NamespaceIndentation: Inner
+
+# 每行字符的限制，0表示没有限制
+ColumnLimit: 0
+
+# []中添加空格
+SpacesInSquareBrackets: false
+
+# ()中添加空格
+SpacesInParentheses : false
+
+# 容器类前添加空格
+SpacesInContainerLiterals: true
+
+# 赋值运算符前加空格
+SpaceBeforeAssignmentOperators: true
+
+# 在空括号中加空格
+SpaceInEmptyParentheses: false
+
+# 在<>中间插入空格
+SpacesInAngles: false
+
+# 换行的时候对齐操作符
+AlignOperands: true
+
+# 括号中的(),{},[]代码对齐方式
+AlignAfterOpenBracket: Align
+
+# 在续行(\  
+#      下一行)时的缩进长度
+# ContinuationIndentWidth: 0
+
+AlignConsecutiveMacros: true
+
+# 赋值=对齐
+AlignConsecutiveAssignments: false
+
+# define 换行时反斜杠位置：左对齐
+AlignEscapedNewlines: Left
+# 连续代码的尾部注释对齐
+AlignTrailingComments: true
+
+# 声明参数对齐
+AlignConsecutiveDeclarations: false
+
+# 运算符位置
+BreakBeforeBinaryOperators: None
+
+# 允许短的函数放在同一行
+AllowShortFunctionsOnASingleLine: true
+
+# 允许case在同一行
+AllowShortCaseLabelsOnASingleLine: false
+
+# 允许if在同一行
+AllowShortIfStatementsOnASingleLine: true
+
+# 允许while在同一行
+AllowShortLoopsOnASingleLine: false
+
+# 允许将简单的语句块放到同一行
+AllowShortBlocksOnASingleLine: true
+
+# 总是在返回类型后换行
+AlwaysBreakAfterReturnType: None
+# 总是在多行string字面量前换行
+AlwaysBreakBeforeMultilineStrings: false
+# 总是在template声明后换行
+AlwaysBreakTemplateDeclarations: MultiLine
+
+
+# 缩进函数名
+IndentWrappedFunctionNames: false
+
+# 形参 如果为false要么都在同一行，要么各有一行
+BinPackParameters: false
+
+# 实参 如果为false要么都在同一行，要么各有一行
+BinPackArguments: false
+
+# 在大括号前换行: Attach(始终将大括号附加到周围的上下文), Linux(除函数、命名空间和类定义，与Attach类似), 
+# Mozilla(除枚举、函数、记录定义，与Attach类似), Stroustrup(除函数定义、catch、else，与Attach类似), 
+# Allman(总是在大括号前换行), GNU(总是在大括号前换行，并对于控制语句的大括号增加额外的缩进), WebKit(在函数前换行), Custom
+# 注：这里认为语句块也属于函数
+BreakBeforeBraces: Custom
+# 大括号换行，只有当BreakBeforeBraces设置为Custom时才有效
+BraceWrapping:
+  # class定义后面
+  AfterClass: true
+  # 控制语句后面
+  AfterControlStatement: false
+  AfterCaseLabel: false
+  # enum定义后面
+  AfterEnum: false
+  # 函数定义后面（OC 无效）
+  AfterFunction: false
+  # 命名空间定义后面
+  AfterNamespace: false
+  # OC 定义后面
+  AfterObjCDeclaration:  false
+  # struct定义后面
+  AfterStruct: false
+  # union定义后面
+  AfterUnion: false
+  # catch之前
+  BeforeCatch: false
+  # else之前
+  BeforeElse:      false
+  # 缩进大括号
+  IndentBraces:    false
+  #false 时，空方法体 {} 放在一行
+  SplitEmptyFunction: true
+  #false 时，空记录（例如，类，结构或联合）{} 放在一行
+  SplitEmptyRecord: true
+  # false 且 AfterNamespace == true 时 空命名空间体可放到一行: {}
+  SplitEmptyNamespace: true
