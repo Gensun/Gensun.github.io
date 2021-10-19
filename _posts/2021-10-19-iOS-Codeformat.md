@@ -11,17 +11,17 @@ tags:
   -  xcode
 ---
 
-##Xcode 如何实现代码格式化
+## Xcode 如何实现代码格式化
 
 方案分2种：
 
 1. App Store 下载XCFormat
 2. ClangFormat
 
-###重点来描述下ClangFormat在Xcode中如何实现快捷化
+### 重点来描述下ClangFormat在Xcode中如何实现快捷化
 
 >简述：
-
+>
 > * ClangFormat 是一个规范代码的工具
 > * ClangFormat 支持的语言有：C/C++/Java/JavaScript/Objective-C/Protobuf/C#
 > * ClangFormat 支持的规范有：LLVM，Google，Chromium，Mozilla 和 WebKit
@@ -36,7 +36,7 @@ tags:
 	*  	执行 `which clang-format` copy下路径，后续使用
 3. 创建format规则
 
-	下载 ![.clang-format](/img/code-format/clang-format)，放到用户路径下,重命名
+	下载 [.clang-format](/img/code-format/clang-format)，放到用户路径下,重命名
 	`. clang-format `
 	
 4. 创建机器人
@@ -53,7 +53,7 @@ clang-format`
 
 到此为止，可在Xcode文件中右键点击 Services->你命名的shell，便可实现format code
 
-###那如何实现快捷键来format code
+### 那如何实现快捷键来format code
 在system preferences -> keyboard->Shortcuts->App Shortcuts 创建一个 `clang-format` 快捷键
 	![2](/img/code-format/WX20211019-152951@2x.png)
 
