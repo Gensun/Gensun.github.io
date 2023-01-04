@@ -26,11 +26,12 @@ tags:
 > * ClangFormat 支持的语言有：C/C++/Java/JavaScript/Objective-C/Protobuf/C#
 > * ClangFormat 支持的规范有：LLVM，Google，Chromium，Mozilla 和 WebKit
 
-#### 设备：M1 Mac Pro
+#### 设备：
 
-1. 安装
- `arch -arm64 brew install clang-format`
- 
+1. 安装 
+ **M1 Mac Pro** `arch -arm64 brew install clang-format`
+ **intel** ```brew install clang-format```
+
 2. 查询路径和版本
 	* 	检测安装是否成功，查看版本 `clang-format --version`
 	*  	执行 `which clang-format` copy下路径，后续使用
@@ -48,14 +49,15 @@ tags:
 	* 	workflow in xcode.app
 	*   勾选Output replaces selected text
 
-	*   在shell script 下写入`export PATH=/opt/homebrew/bin:$PATH
-clang-format`
-	*   最后保存，命名随意
+	*   在shell script 下写入 ```export PATH=/opt/homebrew/bin:$PATH
+clang-format```
+	*   最后保存，命名随意 eg. `xcode_format`
 
 到此为止，可在Xcode文件中右键点击 Services->你命名的shell，便可实现format code
 
 ### 那如何实现快捷键来format code
-在system preferences -> keyboard->Shortcuts->App Shortcuts 创建一个 `clang-format` 快捷键
+在system preferences -> keyboard->Shortcuts->App Shortcuts 创建一个 `xcode_format` 快捷键
 	![2](/img/code-format/WX20211019-152951@2x.png)
+	![3](/img/code-format/WX20230104-180328@2x.png)
 
 
