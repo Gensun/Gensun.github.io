@@ -18,7 +18,9 @@ PointerAlignment: Right
 
 # 缩进宽度
 # 使用tab字符: Never, ForIndentation, ForContinuationAndIndentation, Alway
+UseTab: ForIndentation
 IndentWidth: 4
+TabWidth: 4
 
 # switch的case缩进
 IndentCaseLabels: true
@@ -32,9 +34,6 @@ ObjCSpaceBeforeProtocolList: true
 # 针对 OC 的 block 的缩进宽度
 ObjCBlockIndentWidth: 4
 
-# OC的block嵌套参数不换行
-ObjCBreakBeforeNestedBlockParam: false
-
 # OC 协议根据 ColumnLimit 长度 换行
 ObjCBinPackProtocolList: Auto
 
@@ -42,7 +41,7 @@ ObjCBinPackProtocolList: Auto
 SpacesBeforeTrailingComments: 1
 
 # 连续的空行保留几行
-MaxEmptyLinesToKeep: 1
+MaxEmptyLinesToKeep: 2
 
 # 保留block里面的空行
 KeepEmptyLinesAtTheStartOfBlocks: false
@@ -50,15 +49,10 @@ KeepEmptyLinesAtTheStartOfBlocks: false
 NamespaceIndentation: Inner
 
 # 每行字符的限制，0表示没有限制
-ColumnLimit: 200
-
-CommentPragmas: '^ IWYU pragma:'
+ColumnLimit: 0
 
 # []中添加空格
 SpacesInSquareBrackets: false
-
-# 括号后加空格
-SpaceAfterCStyleCast: false
 
 # ()中添加空格
 SpacesInParentheses : false
@@ -92,15 +86,14 @@ AlignConsecutiveAssignments: false
 
 # define 换行时反斜杠位置：左对齐
 AlignEscapedNewlines: Left
+# 连续代码的尾部注释对齐
+AlignTrailingComments: true
 
 # 声明参数对齐
 AlignConsecutiveDeclarations: false
 
 # 运算符位置
 BreakBeforeBinaryOperators: None
-
-# 如果为真（true）, 三元运算符将被放置在换行后
-BreakBeforeTernaryOperators: false
 
 # 允许短的函数放在同一行
 AllowShortFunctionsOnASingleLine: true
