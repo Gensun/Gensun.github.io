@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "  mas_equalTo和equalTo 区别”
+title: " mas_equalTo和equalTo 区别 "
 subtitle: " "
 author: "Genie"
 header-img: "img/ef.jpg"
 header-mask: 0.7
 tags:
-   -  autoLayout
-   
+  -  autoLayout
 ---
 
 - 支持的类型
