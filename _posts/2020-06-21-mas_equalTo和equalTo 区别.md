@@ -6,7 +6,8 @@ author: "Genie"
 header-img: "img/ef.jpg"
 header-mask: 0.7
 tags:
-  -  autoLayout
+   -  autoLayout
+   
 ---
 
 - 支持的类型
