@@ -6,14 +6,14 @@ author: "Genie"
 header-img: "img/ef.jpg"
 header-mask: 0.7
 tags:
-  -  
---- self->
+  -  self->
+--- 
 
 `@property`  会生成`ivar+setter+getter` 方法， 自动实现 `synthesize `实例变量
 
 `self.ivar`  - 通过`@property` 定义属性, 有retaincount
 
-` _ivar`  - 成员变量 ，不自动实现setter ，getter，这个在 `.m `中可以用`self->ivar` 或 `_ivar`  来赋值及引用，在写框架中需要定义`private`  会很有用.
+` _ivar `   -  成员变量 ，不自动实现setter ，getter，这个在 `.m `中可以用`self->ivar` 或 `_ivar`  来赋值及引用，在写框架中需要定义`private`  会很有用.
 
 
 **一旦重写一个属性的get和set方法的话，Xcode不会再自动生成带有下划线的私有成员变量了**。
