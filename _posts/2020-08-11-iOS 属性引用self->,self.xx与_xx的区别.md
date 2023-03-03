@@ -7,8 +7,7 @@ header-img: "img/ef.jpg"
 header-mask: 0.7
 tags:
     -  self->
-  -  
---- 
+---
 
 `@property`  会生成`ivar+setter+getter` 方法， 自动实现 `synthesize `实例变量
 
