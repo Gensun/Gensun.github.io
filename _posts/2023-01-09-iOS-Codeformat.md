@@ -1,3 +1,4 @@
+---
 layout: post
 title: "iOS 代码格式化"
 subtitle: " "
@@ -5,13 +6,13 @@ author: "Genie"
 header-img: "img/ef.jpg"
 header-mask: 0.6
 tags:
+
   -  XCFormat
   -  clang-format
   -  xcode
 
 ---
-
-## Xcode 如何实现代码格式化1
+## Xcode 如何实现代码格式化
 
 方案分2种：
 
@@ -30,7 +31,7 @@ tags:
 
 1. 安装 
  **M1 Mac Pro** `arch -arm64 brew install clang-format`
-  **intel** ```brew install clang-format```
+    **intel** ```brew install clang-format```
 
 2. 查询路径和版本
 	* 	检测安装是否成功，查看版本 `clang-format --version`
@@ -43,7 +44,7 @@ tags:
 
 4. 创建机器人
 	 打开**Automator**，创建`Quick Action`， 在 `library` 下选择 `Run shell Script`
-		 
+				 
 	![1](/img/code-format/WX20211019-153013@2x.png)
 	
 	* 	workflow in xcode.app
