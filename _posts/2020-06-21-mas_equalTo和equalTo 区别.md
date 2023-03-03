@@ -7,8 +7,8 @@ header-img: "img/ef.jpg"
 header-mask: 0.7
 tags:
   -  autoLayout
-  
---- mas_equalTo和equalTo 区别
+---
+
 - 支持的类型
  `equalTo` 支持的是id类型，不能直接写数据，需用`@`
 
