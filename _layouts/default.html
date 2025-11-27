@@ -12,15 +12,41 @@
 
     {% include footer.html %}
 
-    <!-- Chatbot iframe - fixed at bottom right -->
-    <div id="chatbot-container" style="position: fixed; bottom: 20px; right: 20px; width: 400px; height: 600px; z-index: 9999; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-radius: 10px; overflow: hidden; background: white;">
-        <iframe
-            src="http://127.0.0.1/chatbot/TYB6pqIDgH7HAREw"
-            style="width: 100%; height: 100%; min-height: 700px"
-            frameborder="0"
-            allow="microphone">
-        </iframe>
-    </div>
+    <!-- Dify Chatbot -->
+    <script>
+     window.difyChatbotConfig = {
+      token: 'TYB6pqIDgH7HAREw',
+      baseUrl: 'http://127.0.0.1',
+      inputs: {
+        // You can define the inputs from the Start node here
+        // key is the variable name
+        // e.g.
+        // name: "NAME"
+      },
+      systemVariables: {
+        // user_id: 'YOU CAN DEFINE USER ID HERE',
+        // conversation_id: 'YOU CAN DEFINE CONVERSATION ID HERE, IT MUST BE A VALID UUID',
+      },
+      userVariables: {
+        // avatar_url: 'YOU CAN DEFINE USER AVATAR URL HERE',
+        // name: 'YOU CAN DEFINE USER NAME HERE',
+      },
+     }
+    </script>
+    <script
+     src="http://127.0.0.1/embed.min.js"
+     id="TYB6pqIDgH7HAREw"
+     defer>
+    </script>
+    <style>
+      #dify-chatbot-bubble-button {
+        background-color: #1C64F2 !important;
+      }
+      #dify-chatbot-bubble-window {
+        width: 24rem !important;
+        height: 40rem !important;
+      }
+    </style>
 
 <!-- Image to hack wechat -->
 <img src="/img/icon_wechat.png" width="0" height="0" />
