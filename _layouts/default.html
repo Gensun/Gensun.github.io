@@ -12,6 +12,15 @@
 
     {% include footer.html %}
 
+    <!-- Chatbot iframe - fixed at bottom right -->
+    <div id="chatbot-container" style="position: fixed; bottom: 20px; right: 20px; width: 400px; height: 600px; z-index: 9999; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-radius: 10px; overflow: hidden; background: white;">
+        <iframe
+            src="http://127.0.0.1/chatbot/TYB6pqIDgH7HAREw"
+            style="width: 100%; height: 100%; min-height: 700px"
+            frameborder="0"
+            allow="microphone">
+        </iframe>
+    </div>
 
 <!-- Image to hack wechat -->
 <img src="/img/icon_wechat.png" width="0" height="0" />
